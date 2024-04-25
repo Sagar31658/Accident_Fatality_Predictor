@@ -1,5 +1,8 @@
 # Team Sigma: Accident Fatality Predictor (Toronto Police)
 
+# Live Application
+Experience our model in action at the live application: [Accident Fatality Predictor](https://accident-fatality-predictor.streamlit.app/).
+
 ## Overview
 The "Team Sigma" project is an initiative to build a predictive model for analyzing key factors leading to fatal collisions in Toronto. Utilizing data from the Toronto Police, this model aims to provide insights that could potentially save lives by preventing future accidents.
 
@@ -32,3 +35,9 @@ cd project-directory
 docker build -t accident_fatality_predictor .
 
 docker run -p 8501:8501 accident_fatality_predictor
+
+```
+
+### Acknowledgements
+Thanks to Prof. Ashish Gupta for his continuous support and guidance.
+Gratitude towards the Toronto Police for providing the dataset essential for this analysis.
