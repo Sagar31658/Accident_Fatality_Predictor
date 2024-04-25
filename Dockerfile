@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/Sagar31658/Accident_Fatality_Predictor.git
+COPY . .
 
 RUN pip freeze > requirements.txt
 
