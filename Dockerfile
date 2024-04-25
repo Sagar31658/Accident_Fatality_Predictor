@@ -11,7 +11,9 @@ RUN apt-get update && apt-get install -y \
 
 RUN git clone https://github.com/Sagar31658/Accident_Fatality_Predictor.git
 
-RUN pip install -r requirements.txt
+RUN pip freeze > requirements.txt
+
+RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8501
 
