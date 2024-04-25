@@ -29,8 +29,8 @@ Ensure Docker is installed on your machine for a smoother setup and execution pr
 
 ### Clone the Repository
 ```bash
-git clone <repository-url>
-cd project-directory
+git clone https://github.com/Sagar31658/Accident_Fatality_Predictor.git
+cd Accident_Fatality_Predictor
 
 docker build -t accident_fatality_predictor .
 
